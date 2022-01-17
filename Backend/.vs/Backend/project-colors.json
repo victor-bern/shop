@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8360b93f-7557-461a-9a0c-4e297f548d7c": {
+      "ProjectGuid": "8360b93f-7557-461a-9a0c-4e297f548d7c",
+      "DisplayName": "Backend",
+      "ColorIndex": 0
+    },
+    "0261aac3-840b-441b-905e-8e64936bd398": {
+      "ProjectGuid": "0261aac3-840b-441b-905e-8e64936bd398",
+      "DisplayName": "Backend.Infrastructure",
+      "ColorIndex": 1
+    },
+    "7117b6a5-348c-4fde-9d3d-d88019fa8c4d": {
+      "ProjectGuid": "7117b6a5-348c-4fde-9d3d-d88019fa8c4d",
+      "DisplayName": "Backend.Domain",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

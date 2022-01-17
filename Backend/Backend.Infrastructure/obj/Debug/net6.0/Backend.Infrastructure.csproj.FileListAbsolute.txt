@@ -1,0 +1,17 @@
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\Backend.Infrastructure.deps.json
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\Backend.Infrastructure.runtimeconfig.json
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\Backend.Infrastructure.dll
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\ref\Backend.Infrastructure.dll
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\Backend.Infrastructure.pdb
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\Backend.Domain.dll
+D:\Documents\outroteste\backend\Backend.Infrastructure\bin\Debug\net6.0\Backend.Domain.pdb
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.csproj.AssemblyReference.cache
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.AssemblyInfoInputs.cache
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.AssemblyInfo.cs
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.csproj.CopyComplete
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.dll
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\ref\Backend.Infrastructure.dll
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.pdb
+D:\Documents\outroteste\backend\Backend.Infrastructure\obj\Debug\net6.0\Backend.Infrastructure.genruntimeconfig.cache
