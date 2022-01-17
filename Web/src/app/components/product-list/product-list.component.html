@@ -1,0 +1,6 @@
+<app-product
+  class="product"
+  *ngFor="let product of products"
+  [product]="product"
+  (event)="onProductChange($event)"
+></app-product>

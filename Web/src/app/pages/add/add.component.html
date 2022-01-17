@@ -1,0 +1,54 @@
+<app-top-bar></app-top-bar>
+<div class="container">
+  <form [formGroup]="productForm" (submit)="onSubmit()">
+    <div class="images">
+      <div *ngFor="let src of images">
+        <img [src]="src" width="150" />
+      </div>
+      <div *ngIf="show">
+        <label for="file"><i class="fa-solid fa-plus fa-5x"></i></label>
+        <input
+          type="file"
+          name="file"
+          id="file"
+          (change)="onFileChange($event)"
+        />
+      </div>
+    </div>
+    <fieldset class="field">
+      <legend for="productName">Nome do produto</legend>
+      <input id="productName" type="text" formControlName="productName" />
+    </fieldset>
+    <fieldset class="field">
+      <legend for="productCode">Codigo do produto</legend>
+      <input id="productCode" type="text" formControlName="productCode" />
+    </fieldset>
+    <fieldset class="field">
+      <select name="select" formControlName="category">
+        <option value="esmaltes" selected>Esmaltes</option>
+        <option value="perfumes">Perfumes</option>
+        <option value="maquiagem">Maquiagem</option>
+        <option value="banho">Banho</option>
+      </select>
+    </fieldset>
+    <fieldset class="field">
+      <legend for="price">Preço</legend>
+      <input id="price" type="number" formControlName="price" />
+    </fieldset>
+    <fieldset class="field">
+      <legend for="promocionalPrice">Preço promocional</legend>
+      <input
+        id="promocionalPrice"
+        type="number"
+        formControlName="promocionalPrice"
+      />
+    </fieldset>
+
+    <div class="buttons">
+      <button [routerLink]="['/']" type="button" class="btn cancel">
+        Cancelar
+      </button>
+      <button type="submit" class="btn submit">Salvar</button>
+    </div>
+  </form>
+</div>

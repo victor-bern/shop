@@ -1,0 +1,49 @@
+.modal {
+  height: 154px;
+  width: 560px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  z-index: 10;
+  text-align: left;
+  padding: 12px;
+
+  .title {
+    font-size: 20px;
+    color: #707070;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .confirmation {
+    font-size: 16px;
+    color: #707070;
+    font-family: "Nunito", sans-serif;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    .btn {
+      height: 36px;
+      width: 160px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+
+    .cancel {
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .confirm {
+      background-color: black;
+      color: white;
+    }
+  }
+}

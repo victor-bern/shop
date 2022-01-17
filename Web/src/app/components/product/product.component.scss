@@ -1,0 +1,76 @@
+:host {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.image {
+  margin: 12px;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    height: 64px;
+    width: 64px;
+  }
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    .product-name {
+      margin-bottom: 8px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    .data {
+      display: flex;
+      flex-direction: row;
+      .info {
+        margin-right: 32px;
+      }
+      .info-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #00000066;
+        opacity: 100%;
+      }
+      .info-data {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-right: 32px;
+
+  button {
+    height: 36px;
+    width: 36px;
+    background-color: #f1f3f4;
+    margin-right: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+}

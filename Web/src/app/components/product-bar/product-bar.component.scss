@@ -1,0 +1,35 @@
+:host {
+  width: 100%;
+  font-family: "Montserrat", "sans-serif";
+}
+.container {
+  padding: 16px;
+  color: #000000a3;
+}
+h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.sub-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  button {
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: "Roboto", "sans-serif";
+    font-weight: bold;
+
+    i {
+      margin-right: 8px;
+    }
+  }
+}

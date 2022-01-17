@@ -1,0 +1,8 @@
+<div class="modal" *ngIf="showModal">
+  <p class="title">Excluir produto</p>
+  <p class="confirmation">Tem certeza que quer excluir este produto?</p>
+  <div class="buttons">
+    <button class="btn cancel" (click)="cancel()">Cancelar</button>
+    <button class="btn confirm" (click)="delete()">Confirmar</button>
+  </div>
+</div>
